@@ -1,0 +1,639 @@
+/deep/ .el-message-box {
+  /deep/ .el-button--primary {
+    /deep/ span {
+      color: #fff !important;
+    }
+  }
+}
+
+.rightCoat {
+  min-height: 700px;
+}
+
+.listCoat {
+  margin-top: 24px;
+  padding-top: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tilCoat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  height: 60px;
+  border-bottom: 1px solid #ddd;
+
+  p {
+    font-weight: bold;
+    color: #111;
+  }
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+
+  // margin-left: 12px;
+  .list {
+    display: flex;
+    flex-direction: row;
+    line-height: 30px;
+
+    .tilName {
+      width: 140px;
+      padding-right: 12px;
+
+      p {
+        font-weight: bold;
+        color: $fontColor1;
+      }
+    }
+
+    .tilText p {
+      line-height: 26px;
+      color: $fontColor2;
+    }
+
+    .tilTextOne p {
+      float: left;
+    }
+
+    .tilTextOne b {
+      width: 63px;
+      height: 35px;
+      color: #C37071;
+      border-radius: 3px;
+      padding: 5px;
+      font-weight: bold;
+      margin-left: 10px;
+      cursor: pointer;
+      border: 1px solid #C37071;
+    }
+  }
+}
+
+.right {
+  font-size: 16px;
+  width: 240px;
+
+  .sumTil {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .sumListCoat {
+    padding: 12px 0;
+    border-bottom: 1px solid $borderColor;
+  }
+
+  .sumList {
+    display: flex;
+    font-size: 14px;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 30px;
+
+    p {
+      color: $fontColor2;
+    }
+  }
+
+  .totalPay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px 0;
+
+    .totalPayTil {
+      font-weight: bold;
+      color: $fontColor1;
+    }
+
+    .totalPayText {
+      font-weight: bold;
+      color: $bjColor;
+    }
+  }
+}
+
+.btnCoat {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  margin-top: 8px;
+
+  button {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    img {
+      height: 20px;
+      margin-right: 3px;
+    }
+  }
+
+  .pay {
+    background-color: $bjColor;
+
+    p {
+      color: #fff;
+    }
+  }
+
+  .clearPay {
+    background-color: #fff;
+    border: 1px solid $fontColor2;
+    color: $fontColor2;
+  }
+}
+
+.itemCoat {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.itemTil {
+  line-height: 24px;
+  background-color: #efefef;
+
+  p {
+    padding: 6px 0;
+    padding-left: 12px;
+    font-size: 14px;
+    color: $fontColor1;
+  }
+}
+
+.itemCoat {
+  border: 1px solid $borderColor;
+
+  .list {
+    display: flex;
+    width: 95%;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 20px;
+    position: relative;
+    margin: 23px auto;
+    background:#F0F1F3;;
+
+    .imgCoat {
+      display: flex;
+      padding-right: 16px;
+
+      img {
+        height: 75px;
+      }
+    }
+
+    .contCoat {
+      position: relative;
+      padding-right: 20px;
+      min-height: 75px;
+      max-width: 34%;
+      font-size: 14px;
+
+      .orderText {
+        font-size: 13px;
+        color: $fontColor1;
+      }
+
+      .orderSel {
+        margin-top: 4px;
+        display: flex;
+        flex-direction: row;
+
+        p {
+          margin-right: 6px;
+          font-size: 14px;
+          color: $fontColor2;
+          font-weight: bold;
+        }
+      }
+
+      .orderDec {
+        display: flex;
+        margin: 10px 0;
+        align-items: center;
+
+        span {
+          font-weight: bold;
+        }
+
+        .sellPrice {
+          font-weight: bold;
+          margin: 0 7px;
+        }
+      }
+
+      span {
+        color: $fontColor1;
+        font-size: 14px;
+      }
+    }
+
+    .dateCoat {
+      font-size: 16px;
+      text-align: center;
+      max-width: 200px;
+    }
+
+    .statusTextCoat {
+      font-size: 16px;
+      margin: 0 25px;
+      text-align: center;
+      position: absolute;
+      right: 132px;
+
+      p {
+        color: $fontColorBlue;
+      }
+
+      .trackingInfo {
+        color: #F59A23;
+        margin-top: 6px;
+        cursor: pointer;
+      }
+    }
+
+    .orderOperation {
+      height: 100px;
+      display: flex;
+      flex-wrap: wrap;
+      width: 132px;
+      align-items: center;
+      position: absolute;
+      right: 10px;
+
+      .cancelOrderCoat,
+      .requestRefundCoat,
+      .writeReviewCoat {
+        font-size: 12px;
+        text-align: center;
+        float: right;
+        border-radius: 4px;
+        width: 132px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+
+        p {
+          cursor: pointer;
+        }
+      }
+
+      .haveReceivedCoat {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 4px;
+        width: 132px;
+        height: 40px;
+
+        /deep/ span {
+          color: #fff;
+        }
+
+        /deep/ .el-icon-loading {
+          color: #fff;
+        }
+      }
+
+      .haveReceivedCoat,
+      .writeReviewCoat {
+        background: #c37071;
+
+        p {
+          color: #fff;
+        }
+      }
+
+      .cancelOrderCoat,
+      .requestRefundCoat {
+        border: 1px solid #7F7F7F;
+
+        p {
+          color: #7F7F7F;
+        }
+      }
+    }
+
+    .trackinginfor {
+      cursor: pointer;
+    }
+
+    .priceCoat {
+      position: absolute;
+      right: 20px;
+      font-size: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      text-align: right;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+
+      .sellPrice {
+        font-weight: bold;
+        color: $fontColor1;
+      }
+
+      .regularPrice {
+        text-align: center;
+        color: $fontColor2;
+        font-size: 14px;
+        position: relative;
+      }
+
+      .regularPrice:after {
+        content: "";
+        width: 100%;
+        height: 0;
+        border-top: 1px solid $fontColor2;
+        position: absolute;
+        top: 50%;
+        right: 0;
+      }
+    }
+  }
+
+  //   .masterOrderOperation {
+  //     width: 100%;
+  //     height: 110px;
+
+  //     .orderSubDec {
+  //       font-size: 18px;
+  //       display: flex;
+  //       justify-content: flex-end;
+  //       width: 100%;
+  //       padding-right: 22px;
+
+  //       p,
+  //       span {
+  //         font-weight: bold;
+  //       }
+
+  //       .total {
+  //         margin: 0 11px;
+  //       }
+  //     }
+
+  //     .payCoat,
+  //     .detailsCoat {
+  //       font-size: 16px;
+  //       text-align: center;
+  //       line-height: 30px;
+  //       float: right;
+  //       margin: 30px 60px;
+  //       border-radius: 4px;
+  //       padding: 3px 16px;
+
+  //       p {
+  //         cursor: pointer;
+  //       }
+  //     }
+
+  //     .payCoat {
+  //       background: #c37071;
+
+  //       p {
+  //         color: #fff;
+  //       }
+  //     }
+
+  //     .detailsCoat {
+  //       border: 1px solid #c37071;
+
+  //       p {
+  //         color: #c37071;
+  //       }
+  //     }
+  //   }
+}
+
+.reviewMasking {
+  .maskCont {
+    top: 100px;
+    width: 420px;
+    height: 570px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px 20px;
+
+    .el-icon-close {
+      position: absolute;
+      right: 24px;
+      top: 36px;
+      font-size: 18px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .maskTil {
+      font-size: 24px;
+      text-align: center;
+      padding: 20px 0 30px;
+    }
+
+    .ratingTil {
+      display: flex;
+      margin-top: 30px;
+      justify-content: space-between;
+
+      span:last-child {
+        font-size: 12px;
+        line-height: 20px;
+        color: $fontColorBlue;
+      }
+    }
+
+    .rating {
+      text-align: center;
+      padding: 20px;
+
+      /deep/ .el-rate__icon {
+        font-size: 26px;
+      }
+    }
+
+    .writeReviewTil {
+      font-size: 16px;
+      margin-bottom: 14px;
+    }
+
+    .writeCoat_ {
+      width: 370px;
+      display: flex;
+
+      textarea {
+        width: 100%;
+        height: 120px;
+        border-radius: 4px;
+        border: 1px solid $borderColor;
+        padding: 10px;
+        resize: none;
+      }
+    }
+
+    .enter-review-error {
+      font-size: 12px;
+      color: $fontColorBlue;
+      margin: 10px 0 4px;
+    }
+
+    .exceed {
+      font-size: 14px;
+      color: $fontColor1;
+    }
+
+    .btnCoat {
+      width: 260px;
+      margin: 76px auto 40px;
+
+      button {
+        background: #DDDDDD;
+        border-radius: 4px;
+        margin: 0 auto;
+        color: #fff;
+
+        .el-icon-loading {
+          color: #fff;
+          margin-right: 4px;
+          animation: rotating 2s linear infinite;
+        }
+      }
+
+    }
+  }
+}
+
+.cancelMasking {
+  .maskCont {
+    top: 200px;
+    width: 500px;
+    padding: 20px 10px;
+
+    .el-icon-close {
+      position: absolute;
+      right: 12px;
+      top: 12px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .maskTil {
+      font-size: 18px;
+      padding-bottom: 10px;
+    }
+
+    .btnCoat {
+      width: 480px;
+
+      button {
+        color: #777;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.cancelMasking,
+.reviewMasking {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+
+  .maskCont {
+    background-color: #fff;
+    font-size: 16px;
+    position: absolute;
+    // height: 500px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+
+    .maskTil {
+      font-weight: bold;
+      border-bottom: 1px solid $borderColor;
+    }
+
+    .cancelList {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      line-height: 36px;
+
+      .quan {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        border: 1px solid $borderColor;
+      }
+
+      .el-icon-success {
+        font-size: 17px;
+        color: $bjColor;
+      }
+    }
+
+    .writeCoat {
+      display: flex;
+
+      textarea {
+        border: 1px solid $borderColor;
+        width: 100%;
+        padding: 10px;
+        height: 120px;
+        resize: none;
+      }
+    }
+
+    .btnCoat {
+      display: flex;
+      margin-top: 20px;
+      line-height: 42px;
+
+      button {
+        height: 38px;
+        width: 100%;
+        font-size: 15px;
+        margin-bottom: 10px;
+      }
+
+      .btnActive {
+        background-color: $bjColor;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.order_note {
+  font-size: 16px;
+  margin-top: 36px;
+
+  .order_noteTil {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+}

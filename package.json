@@ -1,0 +1,45 @@
+{
+    "name": "frisson_nuxt_web",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "cross-env NODE_MODE=dev nuxt",
+        "dev:test": "cross-env NODE_MODE=test nuxt",
+        "dev:staging": "cross-env NODE_MODE=staging nuxt",
+        "dev:prod": "cross-env NODE_MODE=prod nuxt",
+        "build": "cross-env NODE_MODE=prod nuxt build",
+        "build:test": "cross-env NODE_MODE=test nuxt build",
+        "build:staging": "cross-env NODE_MODE=staging nuxt build",
+        "build:prod": "cross-env NODE_MODE=prod nuxt build",
+        "start": "cross-env NODE_MODE=prod nuxt start",
+        "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+        "lint": "npm run lint:js"
+    },
+    "dependencies": {
+        "@nuxtjs/axios": "^5.11.0",
+        "airwallex-payment-elements": "^0.2.15",
+        "element-ui": "^2.13.2",
+        "js-cookie": "^2.2.1",
+        "nuxt": "^2.13.0",
+        "request-ip": "^2.1.3",
+        "vue-awesome-swiper": "^3.1.3",
+        "vue-i18n": "^8.18.2",
+        "vue-lazyload": "^1.3.3",
+        "vue-photo-preview": "^1.1.3",
+        "vuex-persistedstate": "^3.1.0"
+    },
+    "devDependencies": {
+        "@nuxtjs/eslint-config": "^3.0.0",
+        "@nuxtjs/eslint-module": "^2.0.0",
+        "@nuxtjs/style-resources": "^1.0.0",
+        "babel-eslint": "^10.1.0",
+        "babel-plugin-component": "^1.1.1",
+        "cross-env": "^7.0.2",
+        "eslint": "^7.2.0",
+        "eslint-plugin-nuxt": "^1.0.0",
+        "lodash-webpack-plugin": "^0.11.5",
+        "node-sass": "^4.14.1",
+        "postcss-cssnext": "^3.1.0",
+        "sass-loader": "^9.0.2"
+    }
+}

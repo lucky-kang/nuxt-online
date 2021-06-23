@@ -1,0 +1,290 @@
+{
+  "Combination": {
+    "description": "Auto imported from F:/frissonlife-pc/components/combination.vue"
+  },
+  "LazyCombination": {
+    "description": "Auto imported from F:/frissonlife-pc/components/combination.vue"
+  },
+  "CombinationProducts": {
+    "description": "Auto imported from F:/frissonlife-pc/components/combinationProducts.vue"
+  },
+  "LazyCombinationProducts": {
+    "description": "Auto imported from F:/frissonlife-pc/components/combinationProducts.vue"
+  },
+  "GuestDialog": {
+    "description": "Auto imported from F:/frissonlife-pc/components/guestDialog.vue"
+  },
+  "LazyGuestDialog": {
+    "description": "Auto imported from F:/frissonlife-pc/components/guestDialog.vue"
+  },
+  "Loading": {
+    "description": "Auto imported from F:/frissonlife-pc/components/loading.vue"
+  },
+  "LazyLoading": {
+    "description": "Auto imported from F:/frissonlife-pc/components/loading.vue"
+  },
+  "Login": {
+    "description": "Auto imported from F:/frissonlife-pc/components/login.vue"
+  },
+  "LazyLogin": {
+    "description": "Auto imported from F:/frissonlife-pc/components/login.vue"
+  },
+  "MayLike": {
+    "description": "Auto imported from F:/frissonlife-pc/components/mayLike.vue"
+  },
+  "LazyMayLike": {
+    "description": "Auto imported from F:/frissonlife-pc/components/mayLike.vue"
+  },
+  "NewUser": {
+    "description": "Auto imported from F:/frissonlife-pc/components/newUser.vue"
+  },
+  "LazyNewUser": {
+    "description": "Auto imported from F:/frissonlife-pc/components/newUser.vue"
+  },
+  "NewuserMasking": {
+    "description": "Auto imported from F:/frissonlife-pc/components/newuserMasking.vue"
+  },
+  "LazyNewuserMasking": {
+    "description": "Auto imported from F:/frissonlife-pc/components/newuserMasking.vue"
+  },
+  "ActiveSwiper": {
+    "description": "Auto imported from F:/frissonlife-pc/components/activeSwiper/activeSwiper.vue"
+  },
+  "LazyActiveSwiper": {
+    "description": "Auto imported from F:/frissonlife-pc/components/activeSwiper/activeSwiper.vue"
+  },
+  "CartApply": {
+    "description": "Auto imported from F:/frissonlife-pc/components/cart/cartApply.vue"
+  },
+  "LazyCartApply": {
+    "description": "Auto imported from F:/frissonlife-pc/components/cart/cartApply.vue"
+  },
+  "CartListDrawer": {
+    "description": "Auto imported from F:/frissonlife-pc/components/cart/cartListDrawer.vue"
+  },
+  "LazyCartListDrawer": {
+    "description": "Auto imported from F:/frissonlife-pc/components/cart/cartListDrawer.vue"
+  },
+  "CartShops": {
+    "description": "Auto imported from F:/frissonlife-pc/components/cart/cartShops.vue"
+  },
+  "LazyCartShops": {
+    "description": "Auto imported from F:/frissonlife-pc/components/cart/cartShops.vue"
+  },
+  "NewCartListDrawer": {
+    "description": "Auto imported from F:/frissonlife-pc/components/cart/newCartListDrawer.vue"
+  },
+  "LazyNewCartListDrawer": {
+    "description": "Auto imported from F:/frissonlife-pc/components/cart/newCartListDrawer.vue"
+  },
+  "CheckoutLeft": {
+    "description": "Auto imported from F:/frissonlife-pc/components/checkout/checkoutLeft.vue"
+  },
+  "LazyCheckoutLeft": {
+    "description": "Auto imported from F:/frissonlife-pc/components/checkout/checkoutLeft.vue"
+  },
+  "CheckoutRight": {
+    "description": "Auto imported from F:/frissonlife-pc/components/checkout/checkoutRight.vue"
+  },
+  "LazyCheckoutRight": {
+    "description": "Auto imported from F:/frissonlife-pc/components/checkout/checkoutRight.vue"
+  },
+  "CheckoutHeader": {
+    "description": "Auto imported from F:/frissonlife-pc/components/checkoutHeader/checkoutHeader.vue"
+  },
+  "LazyCheckoutHeader": {
+    "description": "Auto imported from F:/frissonlife-pc/components/checkoutHeader/checkoutHeader.vue"
+  },
+  "Coupon": {
+    "description": "Auto imported from F:/frissonlife-pc/components/coupon/coupon.vue"
+  },
+  "LazyCoupon": {
+    "description": "Auto imported from F:/frissonlife-pc/components/coupon/coupon.vue"
+  },
+  "CouponTag": {
+    "description": "Auto imported from F:/frissonlife-pc/components/coupon/couponTag.vue"
+  },
+  "LazyCouponTag": {
+    "description": "Auto imported from F:/frissonlife-pc/components/coupon/couponTag.vue"
+  },
+  "CurrencyCountry": {
+    "description": "Auto imported from F:/frissonlife-pc/components/currencyCountry/currencyCountry.vue"
+  },
+  "LazyCurrencyCountry": {
+    "description": "Auto imported from F:/frissonlife-pc/components/currencyCountry/currencyCountry.vue"
+  },
+  "CheckoutAddress": {
+    "description": "Auto imported from F:/frissonlife-pc/components/editAddress/checkoutAddress.vue"
+  },
+  "LazyCheckoutAddress": {
+    "description": "Auto imported from F:/frissonlife-pc/components/editAddress/checkoutAddress.vue"
+  },
+  "EditAddress": {
+    "description": "Auto imported from F:/frissonlife-pc/components/editAddress/editAddress.vue"
+  },
+  "LazyEditAddress": {
+    "description": "Auto imported from F:/frissonlife-pc/components/editAddress/editAddress.vue"
+  },
+  "FFooter": {
+    "description": "Auto imported from F:/frissonlife-pc/components/footer/f-footer.vue"
+  },
+  "LazyFFooter": {
+    "description": "Auto imported from F:/frissonlife-pc/components/footer/f-footer.vue"
+  },
+  "FHeader": {
+    "description": "Auto imported from F:/frissonlife-pc/components/header/f-header.vue"
+  },
+  "LazyFHeader": {
+    "description": "Auto imported from F:/frissonlife-pc/components/header/f-header.vue"
+  },
+  "DetailWeek": {
+    "description": "Auto imported from F:/frissonlife-pc/components/home/detailWeek.vue"
+  },
+  "LazyDetailWeek": {
+    "description": "Auto imported from F:/frissonlife-pc/components/home/detailWeek.vue"
+  },
+  "ExclusiveBanner": {
+    "description": "Auto imported from F:/frissonlife-pc/components/home/exclusiveBanner.vue"
+  },
+  "LazyExclusiveBanner": {
+    "description": "Auto imported from F:/frissonlife-pc/components/home/exclusiveBanner.vue"
+  },
+  "ModuleFour": {
+    "description": "Auto imported from F:/frissonlife-pc/components/home/moduleFour.vue"
+  },
+  "LazyModuleFour": {
+    "description": "Auto imported from F:/frissonlife-pc/components/home/moduleFour.vue"
+  },
+  "ModuleOne": {
+    "description": "Auto imported from F:/frissonlife-pc/components/home/moduleOne.vue"
+  },
+  "LazyModuleOne": {
+    "description": "Auto imported from F:/frissonlife-pc/components/home/moduleOne.vue"
+  },
+  "ModuleThree": {
+    "description": "Auto imported from F:/frissonlife-pc/components/home/moduleThree.vue"
+  },
+  "LazyModuleThree": {
+    "description": "Auto imported from F:/frissonlife-pc/components/home/moduleThree.vue"
+  },
+  "ModuleTwo": {
+    "description": "Auto imported from F:/frissonlife-pc/components/home/moduleTwo.vue"
+  },
+  "LazyModuleTwo": {
+    "description": "Auto imported from F:/frissonlife-pc/components/home/moduleTwo.vue"
+  },
+  "WomenClothing": {
+    "description": "Auto imported from F:/frissonlife-pc/components/home/womenClothing.vue"
+  },
+  "LazyWomenClothing": {
+    "description": "Auto imported from F:/frissonlife-pc/components/home/womenClothing.vue"
+  },
+  "HomeSwiper": {
+    "description": "Auto imported from F:/frissonlife-pc/components/home-swiper/home-swiper.vue"
+  },
+  "LazyHomeSwiper": {
+    "description": "Auto imported from F:/frissonlife-pc/components/home-swiper/home-swiper.vue"
+  },
+  "ListCard": {
+    "description": "Auto imported from F:/frissonlife-pc/components/listCard/listCard.vue"
+  },
+  "LazyListCard": {
+    "description": "Auto imported from F:/frissonlife-pc/components/listCard/listCard.vue"
+  },
+  "NHeader": {
+    "description": "Auto imported from F:/frissonlife-pc/components/newHeader2/n-header.vue"
+  },
+  "LazyNHeader": {
+    "description": "Auto imported from F:/frissonlife-pc/components/newHeader2/n-header.vue"
+  },
+  "Shipment": {
+    "description": "Auto imported from F:/frissonlife-pc/components/order/shipment.vue"
+  },
+  "LazyShipment": {
+    "description": "Auto imported from F:/frissonlife-pc/components/order/shipment.vue"
+  },
+  "ShopCard": {
+    "description": "Auto imported from F:/frissonlife-pc/components/shopCard/shopCard.vue"
+  },
+  "LazyShopCard": {
+    "description": "Auto imported from F:/frissonlife-pc/components/shopCard/shopCard.vue"
+  },
+  "ShopItem": {
+    "description": "Auto imported from F:/frissonlife-pc/components/shopCard/shopItem.vue"
+  },
+  "LazyShopItem": {
+    "description": "Auto imported from F:/frissonlife-pc/components/shopCard/shopItem.vue"
+  },
+  "Reviews": {
+    "description": "Auto imported from F:/frissonlife-pc/components/shopDetail/reviews.vue"
+  },
+  "LazyReviews": {
+    "description": "Auto imported from F:/frissonlife-pc/components/shopDetail/reviews.vue"
+  },
+  "ShopBanner": {
+    "description": "Auto imported from F:/frissonlife-pc/components/shopDetail/shopBanner.vue"
+  },
+  "LazyShopBanner": {
+    "description": "Auto imported from F:/frissonlife-pc/components/shopDetail/shopBanner.vue"
+  },
+  "ActiveShopItem": {
+    "description": "Auto imported from F:/frissonlife-pc/components/shopItem/activeShopItem.vue"
+  },
+  "LazyActiveShopItem": {
+    "description": "Auto imported from F:/frissonlife-pc/components/shopItem/activeShopItem.vue"
+  },
+  "UseBar": {
+    "description": "Auto imported from F:/frissonlife-pc/components/useBar/useBar.vue"
+  },
+  "LazyUseBar": {
+    "description": "Auto imported from F:/frissonlife-pc/components/useBar/useBar.vue"
+  },
+  "AddressRight": {
+    "description": "Auto imported from F:/frissonlife-pc/components/user/addressRight.vue"
+  },
+  "LazyAddressRight": {
+    "description": "Auto imported from F:/frissonlife-pc/components/user/addressRight.vue"
+  },
+  "OrderDetailRight": {
+    "description": "Auto imported from F:/frissonlife-pc/components/user/orderDetailRight.vue"
+  },
+  "LazyOrderDetailRight": {
+    "description": "Auto imported from F:/frissonlife-pc/components/user/orderDetailRight.vue"
+  },
+  "OrderItem": {
+    "description": "Auto imported from F:/frissonlife-pc/components/user/orderItem.vue"
+  },
+  "LazyOrderItem": {
+    "description": "Auto imported from F:/frissonlife-pc/components/user/orderItem.vue"
+  },
+  "OrderLeft": {
+    "description": "Auto imported from F:/frissonlife-pc/components/user/orderLeft.vue"
+  },
+  "LazyOrderLeft": {
+    "description": "Auto imported from F:/frissonlife-pc/components/user/orderLeft.vue"
+  },
+  "OrderRight": {
+    "description": "Auto imported from F:/frissonlife-pc/components/user/orderRight.vue"
+  },
+  "LazyOrderRight": {
+    "description": "Auto imported from F:/frissonlife-pc/components/user/orderRight.vue"
+  },
+  "WishList": {
+    "description": "Auto imported from F:/frissonlife-pc/components/user/wishList.vue"
+  },
+  "LazyWishList": {
+    "description": "Auto imported from F:/frissonlife-pc/components/user/wishList.vue"
+  },
+  "VideoCamp": {
+    "description": "Auto imported from F:/frissonlife-pc/components/videoCamp/videoCamp.vue"
+  },
+  "LazyVideoCamp": {
+    "description": "Auto imported from F:/frissonlife-pc/components/videoCamp/videoCamp.vue"
+  },
+  "ViewOrderDetail": {
+    "description": "Auto imported from F:/frissonlife-pc/components/viewOrderDetail/viewOrderDetail.vue"
+  },
+  "LazyViewOrderDetail": {
+    "description": "Auto imported from F:/frissonlife-pc/components/viewOrderDetail/viewOrderDetail.vue"
+  }
+}

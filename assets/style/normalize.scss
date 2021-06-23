@@ -1,0 +1,291 @@
+@charset "UTF-8";
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  font-size: 100px;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  letter-spacing: 0;
+  background: #fff;
+  body{
+    font-size: 18px;
+  }
+}
+
+
+// @media screen and (max-width:500){
+//   html{font-size:66.66px;}
+// }
+// @media screen and (min-width:500px) and (max-width:1480px){
+//   html{font-size:77px;}
+// }
+// @media screen and (min-width:1480px){
+//   html{font-size:100px;}
+// }
+
+body,
+div,
+span,
+header,
+footer,
+nav,
+section,
+aside,
+article,
+ul,
+dl,
+dt,
+dd,
+li,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+b,
+textarea,
+button,
+input,
+select,
+figure,
+figcaption {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-style: normal;
+  text-decoration: none;
+  border: none;
+  color: #172D55;
+  font-weight: normal;
+  font-family: 'OpenSans';
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+body .el-button--primary span{
+  color: #fff!important;
+}
+
+body:hover,
+div:hover,
+span:hover,
+header:hover,
+footer:hover,
+nav:hover,
+section:hover,
+aside:hover,
+article:hover,
+ul:hover,
+dl:hover,
+dt:hover,
+dd:hover,
+li:hover,
+a:hover,
+p:hover,
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover,
+i:hover,
+b:hover,
+textarea:hover,
+button:hover,
+select:hover,
+figure:hover,
+figcaption:hover {
+  outline: none;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+button {
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0;
+  background-color: #f8f9fa;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 1px RGBA(29, 149, 217, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: RGBA(29, 149, 217, 0.3);
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="search"],
+input[type="reset"] {
+  -webkit-appearance: none;
+}
+
+textarea {
+  -webkit-appearance: none;
+}
+
+.flex-align-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+
+.b-wraper {
+  padding: 1.6rem 2.5rem 2.6rem 2.5rem;
+  background: #ffffff;
+  box-shadow: 0 2.5px 6.5px 0 rgba(172, 172, 172, 0.5);
+  border-radius: 3px;
+}
+
+/* 自定义elementUI样式 */
+.el-table th.is-leaf {
+  border-bottom: 0;
+}
+
+.el-table--striped .el-table__body tr.el-table__row--striped td {
+  background-color: transparent;
+}
+
+.el-table--striped .el-table__body tr.hover-row td {
+  background-color: transparent;
+}
+
+.el-table .cell {
+  line-height: 0.24rem;
+}
+
+.b-table.el-table th {
+  background: #fcfcfc;
+  font-weight: 900;
+}
+
+.b-table.el-table th .cell {
+  font-weight: 900;
+}
+
+.b-table.el-table td div,
+.b-table.el-table .b-cursor {
+  color: #1d95d9;
+}
+
+.b-table.el-table tr,
+.b-table.el-table th {
+  padding: 0.16rem 0.1rem;
+  font-size: 0.18rem;
+}
+
+.b-table.el-table td {
+  letter-spacing: 0;
+  padding: 0.16rem 0.1rem;
+}
+
+.b-table.el-table td.text-black div {
+  color: $fontColor1;
+}
+
+.clear {
+  zoom: 1;
+}
+
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.back_img {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.margin-auto {
+  margin: 0 auto;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+
+.flex-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.container{
+  margin-top: .88rem;
+}

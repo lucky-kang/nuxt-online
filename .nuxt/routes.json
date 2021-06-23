@@ -1,0 +1,152 @@
+[
+  {
+    "name": "becomeAnAffiliate",
+    "path": "/becomeAnAffiliate",
+    "component": "F:\\\\frissonlife-pc\\\\pages\\\\becomeAnAffiliate.vue",
+    "chunkName": "pages/becomeAnAffiliate"
+  },
+  {
+    "name": "cart",
+    "path": "/cart",
+    "component": "F:\\\\frissonlife-pc\\\\pages\\\\cart.vue",
+    "chunkName": "pages/cart"
+  },
+  {
+    "name": "checkoutDetail",
+    "path": "/checkoutDetail",
+    "component": "F:\\\\frissonlife-pc\\\\pages\\\\checkoutDetail.vue",
+    "chunkName": "pages/checkoutDetail"
+  },
+  {
+    "name": "checkoutThree",
+    "path": "/checkoutThree",
+    "component": "F:\\\\frissonlife-pc\\\\pages\\\\checkoutThree.vue",
+    "chunkName": "pages/checkoutThree"
+  },
+  {
+    "name": "checkoutTwo",
+    "path": "/checkoutTwo",
+    "component": "F:\\\\frissonlife-pc\\\\pages\\\\checkoutTwo.vue",
+    "chunkName": "pages/checkoutTwo"
+  },
+  {
+    "name": "confirm_register",
+    "path": "/confirm_register",
+    "component": "F:\\\\frissonlife-pc\\\\pages\\\\confirm_register.vue",
+    "chunkName": "pages/confirm_register"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "F:\\\\frissonlife-pc\\\\pages\\\\contact.vue",
+    "chunkName": "pages/contact"
+  },
+  {
+    "name": "forgotPassword",
+    "path": "/forgotPassword",
+    "component": "F:\\\\frissonlife-pc\\\\pages\\\\forgotPassword.vue",
+    "chunkName": "pages/forgotPassword"
+  },
+  {
+    "name": "group_deal",
+    "path": "/group_deal",
+    "component": "F:\\\\frissonlife-pc\\\\pages\\\\group_deal.vue",
+    "chunkName": "pages/group_deal"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "F:\\\\frissonlife-pc\\\\pages\\\\login.vue",
+    "chunkName": "pages/login"
+  },
+  {
+    "name": "orderTracking",
+    "path": "/orderTracking",
+    "component": "F:\\\\frissonlife-pc\\\\pages\\\\orderTracking.vue",
+    "chunkName": "pages/orderTracking"
+  },
+  {
+    "name": "registeredSuccess",
+    "path": "/registeredSuccess",
+    "component": "F:\\\\frissonlife-pc\\\\pages\\\\registeredSuccess.vue",
+    "chunkName": "pages/registeredSuccess"
+  },
+  {
+    "name": "retrievePassword",
+    "path": "/retrievePassword",
+    "component": "F:\\\\frissonlife-pc\\\\pages\\\\retrievePassword.vue",
+    "chunkName": "pages/retrievePassword"
+  },
+  {
+    "name": "share_invitation2",
+    "path": "/share_invitation2",
+    "component": "F:\\\\frissonlife-pc\\\\pages\\\\share_invitation2.vue",
+    "chunkName": "pages/share_invitation2"
+  },
+  {
+    "name": "product-initData",
+    "path": "/product/initData",
+    "component": "F:\\\\frissonlife-pc\\\\pages\\\\product\\\\initData.js",
+    "chunkName": "pages/product/initData"
+  },
+  {
+    "name": "user-address",
+    "path": "/user/address",
+    "component": "F:\\\\frissonlife-pc\\\\pages\\\\user\\\\address.vue",
+    "chunkName": "pages/user/address"
+  },
+  {
+    "name": "user-coupon",
+    "path": "/user/coupon",
+    "component": "F:\\\\frissonlife-pc\\\\pages\\\\user\\\\coupon.vue",
+    "chunkName": "pages/user/coupon"
+  },
+  {
+    "name": "user-order",
+    "path": "/user/order",
+    "component": "F:\\\\frissonlife-pc\\\\pages\\\\user\\\\order.vue",
+    "chunkName": "pages/user/order"
+  },
+  {
+    "name": "user-orderDetail",
+    "path": "/user/orderDetail",
+    "component": "F:\\\\frissonlife-pc\\\\pages\\\\user\\\\orderDetail.vue",
+    "chunkName": "pages/user/orderDetail"
+  },
+  {
+    "name": "user-wishList",
+    "path": "/user/wishList",
+    "component": "F:\\\\frissonlife-pc\\\\pages\\\\user\\\\wishList.vue",
+    "chunkName": "pages/user/wishList"
+  },
+  {
+    "name": "activities-page",
+    "path": "/activities/:page?",
+    "component": "F:\\\\frissonlife-pc\\\\pages\\\\activities\\\\_page.vue",
+    "chunkName": "pages/activities/_page"
+  },
+  {
+    "name": "categories-id",
+    "path": "/categories/:id?",
+    "component": "F:\\\\frissonlife-pc\\\\pages\\\\categories\\\\_id.vue",
+    "chunkName": "pages/categories/_id"
+  },
+  {
+    "name": "footPage-page",
+    "path": "/footPage/:page?",
+    "component": "F:\\\\frissonlife-pc\\\\pages\\\\footPage\\\\_page.vue",
+    "chunkName": "pages/footPage/_page"
+  },
+  {
+    "name": "product-id",
+    "path": "/product/:id?",
+    "component": "F:\\\\frissonlife-pc\\\\pages\\\\product\\\\_id.vue",
+    "chunkName": "pages/product/_id"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "F:\\\\frissonlife-pc\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]

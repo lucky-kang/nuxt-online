@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url('OpenSans-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "xiti";
+  src: url('OpenSans-Light.ttf');
+  font-weight: normal;
+  font-style: normal;
+}

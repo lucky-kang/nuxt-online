@@ -1,0 +1,261 @@
+.coat {
+  width: 100%;
+}
+
+.mypagination {
+  text-align: center;
+  /deep/ .el-pager li{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    color: #9B9B9B !important;
+    border: 1px solid #9B9B9B;
+  }
+  /deep/ .el-pager li.active {
+    color: #fff !important;
+    background: $fontColorBlue !important;
+  }
+}
+
+
+
+
+.leftCoat {
+  padding-bottom: 30px;
+
+  .comment_rating {
+    /deep/ .el-rate {
+      text-align: center;
+      width: 200px;
+      margin: auto;
+      height: 120px;
+      position: relative;
+
+      /deep/ .el-rate__icon {
+        // color: $fontColorBlue!important;
+        font-size: 30px!important;
+        margin-right: 0!important;
+      }
+
+      /deep/ .el-rate__text {
+        color: $fontColorBlue!important;
+        font-size: 30px;
+        position: absolute;
+        left: 38%;
+        top: 29%;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .til {
+    color: #555;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+
+  .no-review-img {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .noReviews {
+    text-align: center;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: $fontColor1;
+  }
+
+  .starCoat {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    .eveyScore{
+      color: $fontColorBlue;
+      font-size: 22px;
+    }
+    /deep/ .el-rate {
+      display: flex;
+      .el-rate__icon{
+        margin-right: 0!important;
+      }
+      // .el-rate__text {
+      //   color: $fontColorBlue!important;
+      //   font-size: 22px;
+      // }
+    }
+  }
+
+  .list{
+    border-top: 1px solid #ddd;
+    padding-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .list:last-child {
+    border-bottom: 1px solid #ddd;
+  }
+  .listTil {
+    font-size: 16px;
+    margin-bottom: 4px;
+    display: flex;
+
+    .avatar {
+      display: block;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+    .reviewImg {
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 50px;
+      color: #fff;
+      font-size: 24px;
+    }
+    .name-date {
+      margin: 0 20px;
+      padding: 6px 15px;
+
+      .nickname,
+      .createdTime {
+        font-family: Ubuntu;
+      }
+
+      .nickname {
+        color: $fontColor1;
+        font-size: 20px;
+      }
+
+      .createdTime {
+        font-size: 16px;
+        color: #555555;
+      }
+    }
+  }
+
+  .reviewsText {
+    flex: 4;
+    line-height: 24px;
+    font-family: Ubuntu;
+    font-size: 16px;
+    margin-left: 30px;
+    color: #000000;
+    padding-bottom: 10px;
+  }
+}
+
+.rightCoat {
+  border: 2px solid #f55915;
+  padding: 15px 30px 30px;
+
+  .til {
+    font-size: 20px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 12px;
+
+  }
+
+  .setStarCoat {
+    margin-bottom: 14px;
+
+    p {
+      font-size: 14px;
+      color: #222;
+      margin-bottom: 8px;
+    }
+
+    /deep/ .el-rate {
+      display: flex;
+
+      .el-rate__icon {
+        font-size: 22px;
+      }
+    }
+  }
+
+  .textCoat {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+
+    p {
+      font-size: 14px;
+      color: #222;
+      margin-bottom: 6px;
+    }
+
+    textarea {
+      padding: 10px 11px 0;
+      border: 1px solid #ddd;
+      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+      font-size: 14px;
+    }
+  }
+
+  .emailCoat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .emailItem {
+      display: flex;
+      flex-direction: column;
+      width: 45%;
+
+      p {
+        font-size: 14px;
+        color: #222;
+        margin-bottom: 6px;
+      }
+
+      input {
+        height: 38px;
+        width: 100%;
+        font-size: 14px;
+        border: 1px solid #ddd;
+      }
+    }
+  }
+
+  .saveUserCoat {
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+
+    input {
+      margin-right: 12px;
+    }
+
+    label {
+      font-size: 12px;
+    }
+  }
+
+  .btnCoat {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 18px;
+
+    button {
+      height: 40px;
+      padding: 0 16px;
+      background-color: #f55915;
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+}
